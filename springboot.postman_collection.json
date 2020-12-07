@@ -1,0 +1,92 @@
+{
+	"id": "f4dd6b6b-96d9-1f9d-3b4e-52711a8cfbdd",
+	"name": "springboot",
+	"description": "",
+	"order": [
+		"4488a47b-408c-30d0-78b8-c8b52719445f",
+		"7b52a365-0d75-905f-b191-a520f69fc13e",
+		"16e3792e-4d5e-765e-a1d6-dee23de7dff2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1607323056945,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "16e3792e-4d5e-765e-a1d6-dee23de7dff2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9000/getEmp?id=10",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f4dd6b6b-96d9-1f9d-3b4e-52711a8cfbdd",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9000/getEmp?id=10",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607324298092,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4488a47b-408c-30d0-78b8-c8b52719445f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9000/getAllEmployee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1607324011161,
+			"name": "http://localhost:9000/getEmployee",
+			"description": "",
+			"collectionId": "f4dd6b6b-96d9-1f9d-3b4e-52711a8cfbdd",
+			"responses": []
+		},
+		{
+			"id": "7b52a365-0d75-905f-b191-a520f69fc13e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9000/getEmployee/10",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f4dd6b6b-96d9-1f9d-3b4e-52711a8cfbdd",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9000/getEmployee/10",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607324069914,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
